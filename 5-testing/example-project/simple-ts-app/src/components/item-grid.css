@@ -1,0 +1,59 @@
+.item-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item-card {
+  width: 332px;
+  height: 468px;
+  padding: 20px;
+  margin: 20px 40px;
+
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+  border: 3px solid rgb(0, 7, 58);
+  opacity: 0.9;
+
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-card:hover {
+  box-shadow: 2px 5px 5px 5px rgba(226, 212, 63, 0.695);
+  opacity: 1;
+}
+
+.item-card span {
+  font-weight: 700;
+  border-bottom: 2px solid gold;
+  display: block;
+  font-size: large;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.item-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item-card-info {
+  background: rgba(248, 117, 255, 0.406);
+  border-radius: 6px;
+  margin-top: 10px;
+  width: 100%;
+  height: 20%;
+  border: 3px solid rgb(255, 57, 252);
+}
+
+.eth-logo {
+  width: 20px;
+}
