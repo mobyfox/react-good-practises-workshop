@@ -87,3 +87,11 @@ There are two ways to mock functions:
   ```js
   jest.mock()
   ```
+
+***
+
+**Example project**
+
+ - `cart.spec`
+ - `item-grid`
+ - `marketplace`

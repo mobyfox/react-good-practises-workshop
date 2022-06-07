@@ -1,0 +1,21 @@
+.cart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+  width: 87%;
+  margin-bottom: 20px;
+}
+
+.cart span {
+  font-weight: 700;
+  display: block;
+  font-size: x-large;
+  padding: 0 10px;
+}
+
+.cart-icon {
+  display: block;
+  width: 24px;
+
+}

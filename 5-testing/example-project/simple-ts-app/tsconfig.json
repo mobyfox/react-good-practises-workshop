@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "../cart.spec.jsx", "../item-grid.spec.tsx", "../marketplace.spec.tsx"  ]
 }
