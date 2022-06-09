@@ -3,7 +3,7 @@
 - [jest](https://jestjs.io/docs/getting-started)
 - [jest cheat-sheet](https://devhints.io/)
 - [@testing-library/React](https://testing-library.com/docs/react-testing-library/intro/)
-
+- [@testing-library cheat-sheet]()
 - [post](https://dev.to/manuartero/setup-jest-from-scratch-in-a-vanilla-js-project-47o0)
 
 ### Who is who
@@ -95,3 +95,9 @@ There are two ways to mock functions:
  - `cart.spec`
  - `item-grid`
  - `marketplace`
+
+### Priorities
+
+https://testing-library.com/docs/queries/about/#priority
+
+practical -> https://testing-playground.com/
