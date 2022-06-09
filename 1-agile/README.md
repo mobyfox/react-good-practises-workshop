@@ -1,7 +1,12 @@
-## Agile
+# Agile
+
+## Why?
+
+- positive for management: ok
+- positive for workers: walls against chaos.
 
 > Agile is not a methodology but a **philosophy**
-> Agile = **Adapt**
+> Agile = **Adapt** + **ship**
 
 ```
 goal
@@ -36,6 +41,8 @@ Each sub project (`;`): full lifecycle plan, design, build, and test.
 > That is, while there is value in the items on
 > the right, we value the items on the left more.
 
+Relevant principles ->
+
 - Early and continuous delivery of valuable software
 - Deliver working software frequently (w ~ m)
 - progress == Working software
@@ -65,10 +72,28 @@ methodology Scrum implements Agile {
 
 - [**Scrum**](https://www.scrum.org/resources/scrum-guide)
 
-1. A Product Owner orders the work for a complex problem into a Product Backlog.
-2. The Scrum Team turns a selection of the work into an Increment of value during a Sprint.
-3. The Scrum Team and its stakeholders inspect the results and adjust for the next Sprint
+***
+
+Agile philosophy.
+
+1. Divide a complex problem and order the work into a backlog.
+2. The team turns a selection of the work into an increment of value during a short period of time.
+3. The team and its stakeholders inspect the results and adjust for the next Sprint
 4. Repeat
+
+-> Scrum speficic.
+
+```diff
+- 1. Divide a complex problem and order the work into a backlog.
++ 1. Divide a complex problem and the Product Owner orders the work into a Product Backlog.
+- 2. The team turns a selection of the work into an increment of value during a short period of time.
++ 2. The Scrum Team turns a selection of the work into an Increment of value during a Sprint.
+- 3. The Scrum Team and its stakeholders inspect the results and adjust for the next Sprint
++ 3. The Scrum Team and its stakeholders inspect the results and adjust for the next Sprint
+4. Repeat
+```
+
+->
 
 Scrum combines 4 events for inspection and adaptation within a containing event, the `Sprint`.
 

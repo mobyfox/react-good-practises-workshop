@@ -9,8 +9,14 @@
 
 > strategy ♟: take other's option as base, then re-implement your idea again
 
+### Workshop
+
+[manuartero/octo-git-42](https://github.com/manuartero/octo-git-42)
 
 ### VSCode
 
+![vscode-example](./vscode-example.png)
+
 ### Fork
 
+![fork-example](./fork-example.png)
