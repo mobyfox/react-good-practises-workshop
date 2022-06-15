@@ -1,6 +1,7 @@
+import { ReactComponent as EthLogo } from "../assets/eth-logo.svg"
 import { ReactComponent as ShoppingCart } from "../assets/shopping-cart.svg"
 import "./cart.css"
-import { ReactComponent as EthLogo } from "../assets/eth-logo.svg"
+
 
 function Cart({ items }) {
   const total = items.length
