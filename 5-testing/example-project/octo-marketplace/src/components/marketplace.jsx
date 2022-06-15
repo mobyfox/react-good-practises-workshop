@@ -3,18 +3,15 @@ import { getItems } from "../services/api.js"
 import ItemGrid from "./item-grid"
 import Cart from "./cart"
 import "./marketplace.css"
+import { useCart } from '../hooks/use-cart'
 
-function Marketplace() {
+function Marketplace({ admin }) {
+  const { cartItems, onItemClick } = useCart()
   const [items, setItems] = React.useState([])
-  const [cartItems, setCartItems] = React.useState([])
 
   React.useEffect(() => {
     getItems().then(setItems)
   }, [])
-
-  const onItemClick = (item) => {
-    setCartItems((carItems) => [item, ...carItems])
-  }
 
   return (
     <main className="marketplace">
